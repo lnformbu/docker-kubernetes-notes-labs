@@ -39,7 +39,7 @@ Building software can sometimes feel like trying to bake a cake in someone else�
 
 Let’s imagine how Docker works and why it’s such a cool tool!
 
-![docker](img/docker.jpg)
+![docker](docker/img/docker.jpg)
 
 ---
 
@@ -57,7 +57,7 @@ By using a container, you can run a program anywhere and know it will work the s
 
 ## Breaking Down Containers
 
-![containers](img/containers.jpg)
+![containers](docker/img/containers.jpg)
 
 A container is much like a portable toolkit. For instance, imagine building a `Node.js` application (Node.js is a JavaScript runtime used for executing JavaScript code on a server). With Docker, you can create a container that includes:
 
@@ -71,7 +71,7 @@ Let’s look at two examples to explain how containers work:
 
 ### The Picnic Basket Analogy
 
-![picnic](img/picnic.jpg)
+![picnic](docker/img/picnic.jpg)
 
 Imagine you’re packing for a picnic. You put everything you need; food, plates, utensils into a basket. When you get to the park, you have everything you need for a perfect picnic.
 
@@ -81,7 +81,7 @@ A Docker container works the same way. It packs your software with all the tools
 
 ### The Shipping Container Analogy
 
-![container1](img/container1.jpg)
+![container1](docker/img/container1.jpg)
 
 Think of large shipping containers used to transport goods. They are:
 
@@ -126,7 +126,7 @@ Containers address critical challenges in software development and Here’s why 
 
 ### 4. Portability  - Portable and Reliable
 
-![dockermeme](img/dockermeme.jpg)
+![dockermeme](docker/img/dockermeme.jpg)
 
 - **Portability**: Containers can run anywhere Docker is installed, from a developer’s laptop to a cloud server.  And because everything is packed inside the container, it always works the same way, no matter where it’s used.
 
