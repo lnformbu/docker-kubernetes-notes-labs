@@ -18,6 +18,7 @@ To install Docker, the best place to begin is the [official Docker website](http
 Here are the basic requirements for running Docker:
 
 ### macOS
+
 - **Hardware**: Newer than 2010.  
 - **macOS Version**: 10.14 or later.  
 - **Installation Tool**:  
@@ -27,6 +28,7 @@ Here are the basic requirements for running Docker:
 ---
 
 ### Windows
+
 - **Versions**: Windows 10 Pro, Enterprise, Education, or Home.  
 - **Installation Tool**:  
   - Use **Docker Desktop** if compatible.  
@@ -35,6 +37,7 @@ Here are the basic requirements for running Docker:
 ---
 
 ### Linux
+
 - **Requirements**: Most Linux systems natively support Docker, so no special tools like Docker Desktop or Toolbox are needed.  
 - **Installation Method**: Directly install the **Docker Engine**.
 
@@ -51,6 +54,7 @@ Here are the basic requirements for running Docker:
 # Installing Docker
 
 ### macOS
+
 1. Check system requirements.
 2. Install **Docker Desktop** if supported.  
 3. If unsupported, install **Docker Toolbox**.
@@ -58,6 +62,7 @@ Here are the basic requirements for running Docker:
 ---
 
 ### Windows
+
 1. Check system requirements.
 2. Install **Docker Desktop** if supported.  
 3. If unsupported, install **Docker Toolbox**.
@@ -65,6 +70,7 @@ Here are the basic requirements for running Docker:
 ---
 
 ### Linux
+
 1. Install the **Docker Engine** directly from the Linux repository.  
 2. This process is straightforward and doesn’t require additional tools.
 
@@ -72,11 +78,12 @@ Here are the basic requirements for running Docker:
 
 ## Step 1: [Determine Your Windows Version](https://docs.docker.com/desktop/setup/install/windows-install/#system-requirements)
 
-### Docker Desktop Requirements:
+### Docker Desktop Requirements
+
 - **Supported Versions**:  
   - Windows 10 Pro, Enterprise, Education, or Home.  
 - **Older Versions**:  
-  - For Windows 7 or 8, use **Docker Toolbox**. 
+  - For Windows 7 or 8, use **Docker Toolbox**.
 - **Recommendation**:  
   - If possible, upgrade to Windows 10 for **Docker Desktop** compatibility.
 
@@ -84,14 +91,16 @@ Here are the basic requirements for running Docker:
 
 ## Step 2: Enable Necessary Features
 
-### Windows 10 Pro, Enterprise, or Education:
+### Windows 10 Pro, Enterprise, or Education
+
 - **Enable Hyper-V and Containers**:
   1. Open **PowerShell** as Administrator.
   2. Run commands to enable both features (detailed instructions available online).
 
 ---
 
-### Windows 10 Home:
+### Windows 10 Home
+
 - **Enable WSL 2 (Windows Subsystem for Linux)**:
   1. Open **PowerShell** as Administrator.
   2. Enable WSL and update it to version 2.
@@ -130,7 +139,7 @@ Here are the basic requirements for running Docker:
 
 ## Tips and Notes
 
-### Docker Desktop Settings:
+### Docker Desktop Settings
 
 - Adjust whether Docker starts automatically with your system (via the **gear icon** in the interface).  
 
@@ -139,6 +148,6 @@ Here are the basic requirements for running Docker:
 
 ---
 
-### Troubleshooting:
+### Troubleshooting
 
 - Refer to Microsoft or Docker documentation if issues arise during installation.

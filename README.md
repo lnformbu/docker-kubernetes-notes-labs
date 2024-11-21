@@ -12,7 +12,7 @@
      - [4. Portability - Portable and Reliable](#4-portability---portable-and-reliable)
    - [The Role of Docker](#the-role-of-docker)
 
-2. [Virtual Machines vs Docker Containers: A Simple Explanation](#virtual-machines-vs-docker-containers-a-simple-explanation)
+2. [Virtual Machines vs Docker Containers](#virtual-machines-vs-docker-containers)
    - [What Are Virtual Machines?](#what-are-virtual-machines)
    - [How Do Virtual Machines Work?](#how-do-virtual-machines-work)
    - [Problems with Virtual Machines](#problems-with-virtual-machines)
@@ -29,7 +29,17 @@
    - [Comparing Virtual Machines and Containers](#comparing-virtual-machines-and-containers)
    - [Why Containers Are Better for Most Tasks](#why-containers-are-better-for-most-tasks)
 
-3. [Conclusion](#conclusion)
+3. [Docker Components Overview](#docker-components-overview)
+   - [Docker Engine](#docker-engine)
+   - [Virtual Machine (VM)](#virtual-machine-vm)
+   - [Docker Desktop](#docker-desktop)
+   - [Command-Line Interface (CLI)](#command-line-interface-cli)
+   - [Docker Hub](#docker-hub)
+   - [Docker Compose](#docker-compose)
+   - [Kubernetes](#kubernetes)
+
+4. [Conclusion](#conclusion)
+
 
 ---
 
@@ -261,6 +271,72 @@ With Docker, you can:
 - Create lightweight containers.  
 - Easily share and rebuild them.  
 - Run multiple containers on the same system without slowing it down.
+
+---
+
+# Docker Components Overview
+
+---
+
+## Docker Engine
+
+- The core of Docker.
+- **Responsibilities**:
+  - Running containers.
+  - Creating containerized environments.
+
+---
+
+## Virtual Machine (VM)
+
+- On **Windows** and **macOS**, Docker uses a lightweight VM to host Linux.
+- **Reason**:
+  - These operating systems don’t natively support Docker.
+
+---
+
+## Docker Desktop
+
+- Simplifies Docker setup and management.
+- **Includes**:
+  - **Daemon**: Runs Docker in the background.
+  - **Command-Line Interface (CLI)**: Used to create and manage containers.
+
+---
+
+## Command-Line Interface (CLI)
+
+- The primary tool for interacting with Docker.
+- **Use Cases**:
+  - Running commands.
+  - Creating images.
+  - Managing containers.
+
+---
+
+## Docker Hub
+
+- A cloud service for hosting and sharing Docker images.
+- **Note**:
+  - Will be used later in the course.
+
+---
+
+## Docker Compose
+
+- A tool for managing **multi-container projects**.
+- **Purpose**:
+  - Helps set up and orchestrate complex environments.
+
+---
+
+## Kubernetes
+
+- A powerful tool for managing and deploying containerized applications.
+- **Target Audience**:
+  - Especially useful for large systems.
+- **Note**:
+  - Will be covered in-depth later in the course.
 
 ---
 
