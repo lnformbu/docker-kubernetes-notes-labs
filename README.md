@@ -83,6 +83,7 @@ A Docker container works the same way. It packs your software with all the tools
 
 ![container1](Docker/img/container1.jpg)
 
+
 Think of large shipping containers used to transport goods. They are:
 
 - **Standardized**: Fit universally on ships, trucks, or trains.
@@ -144,7 +145,9 @@ While containers can exist without Docker, Docker simplifies their creation and 
 
 ---
 
-# Virtual Machines vs Docker Containers: A Simple Explanation
+# Virtual Machines vs Docker Containers
+
+![dvsv](Docker/img/dvsv.jpg)
 
 Now that we understand what Docker and containers are, let’s talk about another way to solve the same problems: virtual machines (VMs). Virtual machines were around long before Docker, but they work very differently. Let’s break it down simply, so it’s easy to understand.
 
@@ -163,6 +166,8 @@ It’s like creating a separate computer without needing extra physical hardware
 ---
 
 ## How Do Virtual Machines Work?
+
+![vms](Docker/img/vms.jpg)
 
 Here’s a simple way to think about it:
 
@@ -200,6 +205,8 @@ While you can share a virtual machine setup with others, it’s not as simple. Y
 ---
 
 ## How Are Docker Containers Different?
+
+![docvsvm](Docker/img/docvsvm.jpg)
 
 Docker containers solve the same problems as virtual machines but in a much lighter, faster way. Here’s how they’re different:
 
